@@ -1,0 +1,26 @@
+# Terraform state files
+*.tfstate
+*.tfstate.backup
+
+# Terraform crash log
+crash.log
+
+# Terraform variable override files (민감 정보 가능성)
+*.tfvars
+*.tfvars.json
+
+# Terraform plan output
+*.tfplan
+
+# Terraform lock file (선택적 무시 – 공유할 필요 없으면)
+.terraform.lock.hcl
+
+# Local .terraform directory (provider plugin & cache)
+.terraform/
+
+# IDE 관련 (VSCode 기준 예시)
+.vscode/
+.idea/
+
+# OS 파일
+.DS_Store
